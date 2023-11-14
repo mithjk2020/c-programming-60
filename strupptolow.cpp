@@ -9,7 +9,7 @@ int main()
 		i++;
 	}
 	for(j=0;j<i;j++){
-		ch[j]=ch[j]+32;
+		ch[j]=ch[j]-32;
 	}
 	for(j=0;j<i;j++){
 		printf("%c",ch[j]);
