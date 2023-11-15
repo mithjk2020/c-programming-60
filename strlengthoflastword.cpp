@@ -8,11 +8,16 @@ int main()
 	while(ch[i]!='\0'){
 		i++;
 	}
-	for(j=0;j<i;j++){
+	if(i==1){
+		printf("-1");
+	}
+	else{
+		for(j=0;j<i;j++){
 		if(ch[j]==' '){
 			space=j;
 		}
 	}
 	printf("the length of last words is %d.",i-space-1);
+	}
+	return 0;
 }
-
