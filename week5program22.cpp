@@ -1,10 +1,4 @@
-//Write a program in C to insert New value in the array (sorted list)
-//Example:
-//input the value to be inserted : 8
-//The exist array list is :
-//2 5 7 9 11
-//After Insert the list is :
-//2 5 7 8 9 11
+//matrix addition
 #include<stdio.h>
 int main()
 {
